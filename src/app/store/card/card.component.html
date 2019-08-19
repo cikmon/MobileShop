@@ -1,0 +1,80 @@
+<style xmlns:height="http://www.w3.org/1999/xhtml">
+  .cope_text {
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .cope_text p {
+    margin: 0 0 0 0;
+    font-size: 12px;
+  }
+  .line-clamp {
+    display: -webkit-box;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical;
+  }
+
+  .cope_text2 {
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .cope_text2 p {
+    margin: 0 0 0 0;
+    font-size: 16px;
+  }
+  .line-clamp2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+
+</style>
+
+<div class="column" >
+  <div class="cope_text2 line-clamp2">
+  <p> <span title={{product.name}} class="nameDetal" (click)="addProductToCart(product)" > {{product.id}}{{product.name}} </span></p>
+  </div>
+  <app-islider [images]="imageObject"  [animationSpeed]="0.5" [imageSize]="{width: 200, height: 300}"></app-islider>
+
+  <div class="holder">
+    <div class="cope_text line-clamp"> <p>{{product.description}}</p> </div>
+    <div class="block"><p>{{product.description}}</p></div>
+  </div>
+
+
+  <div class="d-flex justify-content-between">
+  <div class="btn-group pull-xs-left">
+     <!--<button class="btn btn-info btn-sm">Detail</button>-->
+    <!--<button class="btn btn-info btn-sm particles-button" libParticleEffectButton-->
+            <!--(pComplete)="reset0=!reset0" [pHidden]="hidden0"-->
+            <!--(click)="hidden0=!hidden0"-->
+            <!--(click)="addProductToCart(product)"-->
+    <!--&gt;Detail</button>-->
+    <button #buttonDetail class="actiony" dis (click)="hidden10=!hidden10">Reset</button>
+
+    <button class="btn btn-info btn-sm particles-button" libParticleEffectButton (pComplete)="reset10=!reset10"
+            pStyle="stroke" pColor="#1b81ea"
+            pDirection="bottom" pDuration=1200 pEasing="easeOutSine" [pSpeed]=.7 pOscillationCoefficient=5
+            [pHidden]="hidden10"
+            (click)="hidden10=!hidden10"
+            (click)="resetButton(buttonDetail)"
+            (click)="change(true)"
+    >Detail</button>
+  </div>
+  <div class="btn-group pull-xs-right">
+      <!--<button class="btn btn-success btn-sm" (click)="addProductToCart(product)" > Add To Cart </button>-->
+
+    <button #buttonAdd class="btn btn-success btn-sm particles-button" libParticleEffectButton
+            (pComplete)="reset0=!reset0" [pHidden]="hidden0"
+            (click)="hidden0=!hidden0"
+            (click)="addProductToCart(product)"
+
+    >Add To Cart</button>
+  </div>
+  </div>
+
+
+</div>
+
+
+

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,900|IBM+Plex+Mono:500i");
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 200px;
+  padding: 3px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen {
+  .column {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 200px;
+  }
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+
+}
+.basic-container {
+  padding: 0px;
+}
+
+.holder{
+}
+.block{
+
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(167, 168, 255, 0.98);
+  padding:5px;
+  display:none;
+}
+.block p{
+  margin: 5px 5px 5px 5px;
+}
+.holder:hover .block{
+  display:block;
+}
+.nameDetal{
+  cursor: pointer;
+}
+.nameDetal:hover{
+  color: magenta;
+}
+
+
+.actiony{
+  display: none;
+}
+
+
+
+
+
+
+/*[hidden] {*/
+  /*display: none;*/
+/*}*/
+
+/*.action {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*background-color: skyblue;*/
+  /*margin: 2rem;*/
+  /*color: var(--color-action);*/
+  /*border: 0;*/
+  /*padding: 10px;*/
+  /*opacity: 1;*/
+  /*border-radius: 4px;*/
+  /*z-index: 100;*/
+/*}*/
+

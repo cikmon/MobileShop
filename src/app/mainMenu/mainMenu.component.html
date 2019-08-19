@@ -1,0 +1,38 @@
+<button mat-button [matMenuTriggerFor]="menuApple">Apple</button>
+<button mat-button [matMenuTriggerFor]="menuXiaomi">Xiaomi</button>
+<button mat-button [matMenuTriggerFor]="menuMaizu">Maizu</button>
+<button mat-button [matMenuTriggerFor]="menuSamsung">Sumsung</button>
+
+<mat-menu #menuApple="matMenu">
+  <button mat-menu-item>Phones</button>
+  <button mat-menu-item>Tablets</button>
+  <button mat-menu-item>Accessories</button>
+  <button mat-menu-item [matMenuTriggerFor]="fish">Fishes</button>
+</mat-menu>
+
+<mat-menu #fish="matMenu">
+  <button mat-menu-item>Baikal oilfish</button>
+  <button mat-menu-item>Bala shark</button>
+  <button mat-menu-item>Ballan wrasse</button>
+  <button mat-menu-item>Bamboo shark</button>
+  <button mat-menu-item>Banded killifish</button>
+</mat-menu>
+
+<mat-menu #menuMaizu="matMenu">
+  <button mat-menu-item>Phones</button>
+  <button mat-menu-item>Tablets</button>
+  <button mat-menu-item>Accessories</button>
+</mat-menu>
+
+<mat-menu #menuXiaomi="matMenu">
+  <button mat-menu-item>Phones</button>
+  <button mat-menu-item>Tablets</button>
+  <button mat-menu-item>Accessories</button>
+</mat-menu>
+
+
+<mat-menu #menuSamsung="matMenu">
+  <button mat-menu-item>Phones</button>
+  <button mat-menu-item>Tablets</button>
+  <button mat-menu-item>Accessories</button>
+</mat-menu>

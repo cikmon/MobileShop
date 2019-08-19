@@ -57,7 +57,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "MobileShop:build"
+            "browserTarget": "MobileShop:build",
+            "port": 4901
           },
           "configurations": {
             "production": {

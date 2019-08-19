@@ -1,0 +1,37 @@
+
+<div>{{product.id}}  {{product.name}} </div>
+
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary" (click)="showSpecifications()">Specifications</button>
+  <button type="button" class="btn btn-secondary" (click)="showComments()"
+          (click)="showAddCommentMethod(false)">Comments ({{getCountComments()}})</button>
+
+  <button type="button" class="btn btn-success btn-sm" *ngIf="showComponent == 2"
+          (click)="showAddCommentMethod(true)">Add Comment</button>
+</div>
+
+<div [ngSwitch]="showComponent">
+
+  <ng-template ngSwitchCase="1">
+    <app-product-detail-specifications [product]="product"></app-product-detail-specifications>
+  </ng-template>
+
+  <ng-template ngSwitchCase="2">
+    <div *ngIf="showAddComment">
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Name" value="anonymous">
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width2">
+          <textarea matInput placeholder="Leave a comment"></textarea>
+        </mat-form-field>
+        <button class="btn btn-success btn-sm" type="submit">Comment</button>
+      </form>
+
+    </div>
+    <app-product-detail-comments [product]="product"></app-product-detail-comments>
+  </ng-template>
+</div>
+
+

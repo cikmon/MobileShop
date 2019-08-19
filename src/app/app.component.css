@@ -1,0 +1,12 @@
+.loading {
+
+  position: relative;
+  top: 300px;
+  height: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+

@@ -4,6 +4,7 @@ import { OrderRepository } from '../model/order.repository';
 
 @Component({
     moduleId: module.id,
+     styleUrls: ['orderTable.component.css'],
     templateUrl: 'orderTable.component.html'
 })
 export class OrderTableComponent {

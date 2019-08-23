@@ -49,7 +49,8 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 4, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
@@ -62,7 +63,8 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 5,
@@ -80,7 +82,8 @@ module.exports = function () {
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 6, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
@@ -93,7 +96,8 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 7, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
@@ -106,7 +110,8 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 8, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
@@ -119,7 +124,8 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 9, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
@@ -132,410 +138,604 @@ module.exports = function () {
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 10, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",
-        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {
-          image: 'assets/apple2.jpg',
-          thumbImage: 'assets/apple1.jpg'
-        },
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
           {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
           {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
           {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
-        , price: 39089
+        , price: 39089,
+        comments:[]
       },
       {
         id: 11,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 12,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 13,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 14,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 15,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 16,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 17,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 18,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 19,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 20,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 21,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 22,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 23,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 24,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 25,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 26,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 27,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 28,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 29,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 30,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 31,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 32,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 33,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 34,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 35,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 36,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 37,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 38,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 39,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 40,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 41,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 42,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 43,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 44,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 45,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 46,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 47,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 48,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 49,
         name: "Apple iPhone Xs Max 512GB Space Gray",
         category: "Phones",
         brand: "Apple",
-        photos: ["assets/apple1.jpg", "assets/apple2.jpg"],
+        photos: [{image: 'assets/apple1.jpg', thumbImage: 'assets/apple2.jpg'}, {image: 'assets/apple2.jpg', thumbImage: 'assets/apple1.jpg'},
+          {image: 'assets/3.jpg', thumbImage: 'assets/3.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}, {image: 'assets/6.jpeg', thumbImage: 'assets/6.jpeg'},
+          {image: 'assets/7.jpg', thumbImage: 'assets/7.jpg'}, {image: 'assets/4.jpg', thumbImage: 'assets/4.jpg'},
+          {image: 'assets/5.jpg', thumbImage: 'assets/5.jpg'}],
         description: "Экран (6.5\", OLED (Super Retina HD), 2688x1242)/ Apple A12 Bionic/ основная камера: двойная 12 Мп, фронтальная камера: 7 Мп/ RAM 4 ГБ/ 512 ГБ встроенной памяти/ 3G/ LTE/ GPS/ Nano-SIM/ iOS 12"
         ,
-        price: 39089
+        price: 39089,
+        comments:[]
       },
       {
         id: 50, name: "Apple iPhone Xs Max 512GB Space Gray", category: "Phones", brand: "Apple",

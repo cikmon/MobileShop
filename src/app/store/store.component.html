@@ -1,9 +1,11 @@
 <div class="content">
 <div class="navbar navbar-inverse bg-inverse">
-  <a class="navbar-brand">MOBILE STORE</a>
+  <!--<a class="navbar-brand">MOBILE STORE</a>-->
+  <div class="sign">
+    <span class="sign__word">mobile store</span>
+  </div>
   <app-cart-summary></app-cart-summary>
 </div>
-
 
 <div class="d-flex bd-highlight">
   <div class="p-2 bd-highlight ">
@@ -26,12 +28,7 @@
 
   <div class="row">
 <ng-container *ngIf="!specifications">
-  <div *ngFor="let product of products()" class="card card-outline-primary"
-       infinite-scroll
-       [infiniteScrollDistance]="0"
-       [infiniteScrollThrottle]="10000">
-       <!--(scrolled)="onScrollDown()">-->
-
+  <div *ngFor="let product of products()" class="col">
       <app-card (onChanged)="onChanged($event)" (setProduct)="setProduct($event)" [product]="product"></app-card>
     </div>
 </ng-container>

@@ -8,11 +8,13 @@ import {ModelModule} from '../../model/model.module';
 import {MatCardModule, MatInputModule} from '@angular/material';
 import {ProductDetailSpecificationsComponent} from './productDetailSpecifications.component';
 import { ProductDetailCommentsComponent } from './product-detail-comments/product-detail-comments.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 
 @NgModule({
   imports: [BrowserModule, RouterModule, BrowserAnimationsModule, MatCardModule,
-    ModelModule, ParticleEffectButtonModule, MatInputModule
+    ModelModule, ParticleEffectButtonModule, MatInputModule, FormsModule,
+    ReactiveFormsModule
     ],
   declarations: [ProductDetailComponent, ProductDetailSpecificationsComponent, ProductDetailCommentsComponent],
   exports: [ProductDetailComponent],

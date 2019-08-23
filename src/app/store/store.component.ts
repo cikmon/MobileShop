@@ -8,9 +8,8 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-store',
    moduleId: module.id,
-  styleUrls: ['store.component.css'],
+  styleUrls: ['store.component.scss'],
   templateUrl: 'store.component.html',
- // template: `<div class="bg-success p-a-1 text-xs-center">This is SportsStoreStore1</div>`
 })
 
 export class StoreComponent {

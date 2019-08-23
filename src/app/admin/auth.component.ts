@@ -5,6 +5,7 @@ import { AuthService } from '../model/auth.service';
 
 @Component({
     moduleId: module.id,
+  styleUrls: ['auth.component.css'],
     templateUrl: 'auth.component.html'
 })
 export class AuthComponent {

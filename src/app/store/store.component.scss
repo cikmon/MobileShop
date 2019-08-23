@@ -12,7 +12,6 @@ select *{
 }
 
 footer{
-
   background: rgba(212,228,239,1);
   background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,0.76) 49%, rgba(134,174,204,0.5) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(49%, rgba(134,174,204,0.76)), color-stop(100%, rgba(134,174,204,0.5)));
@@ -53,4 +52,74 @@ footer{
 
 .content {
   min-height: calc(100vh);
+}
+
+//
+//
+//html,
+//body {
+//  margin: 0;
+//  height: 100%;
+//}
+//
+//html {
+//  font-size: 16px;
+//}
+//
+//body {
+//  font-family: "Vibur", cursive;
+//  font-size: 1rem;
+//  background-image: url("https://www.dropbox.com/s/2ct0i6kc61vp0bh/wall.jpg?raw=1");
+//  background-size: cover;
+//  background-position: center;
+//  background-repeat: no-repeat;
+//  background-color: #141414;
+//}
+//
+//
+///*-- Sign Styles --*/
+//
+
+.sign {
+  font-family: "Vibur", cursive;
+  font-size: 1.5rem;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+&__word {
+   font-size: 1.6rem;
+   text-align: center;
+   line-height: 1;
+   color: #c6e2ff;
+   animation: neon .08s ease-in-out infinite alternate;
+ }
+
+}
+
+/*-- Animation Keyframes --*/
+
+// animation
+
+@keyframes neon {
+  from {
+    text-shadow:
+      0 0 6px rgba(202,228,225,3.92),
+      0 0 30px rgba(202,228,225,3.34),
+      0 0 12px rgba(30,132,242,3.52),
+      0 0 21px rgba(30,132,242,3.92),
+      0 0 34px rgba(30,132,242,3.78),
+      0 0 54px rgba(30,132,242,3.92);
+  }
+  to {
+    text-shadow:
+      0 0 6px rgba(202,228,225,3.98),
+      0 0 30px rgba(202,228,225,3.42),
+      0 0 12px rgba(30,132,242,3.58),
+      0 0 22px rgba(30,132,242,3.84),
+      0 0 38px rgba(30,132,242,3.88),
+      0 0 60px rgba(30,132,242,3);
+  }
 }

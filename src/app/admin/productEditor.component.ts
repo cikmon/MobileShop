@@ -6,6 +6,7 @@ import { ProductRepository } from '../model/product.repository';
 
 @Component({
     moduleId: module.id,
+    styleUrls: ['productEditor.component.css'],
     templateUrl: 'productEditor.component.html'
 })
 export class ProductEditorComponent {

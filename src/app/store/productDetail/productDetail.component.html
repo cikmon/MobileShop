@@ -18,13 +18,13 @@
 
   <ng-template ngSwitchCase="2">
     <div *ngIf="showAddComment">
-      <form class="example-form">
+      <form class="example-form"  [formGroup]="addCommentForm" (ngSubmit)="addComment()"  >
         <mat-form-field class="example-full-width">
-          <input matInput placeholder="Name" value="anonymous">
+          <input matInput placeholder="Name" value="anonymous" formControlName="nickName">
         </mat-form-field>
 
         <mat-form-field class="example-full-width2">
-          <textarea matInput placeholder="Leave a comment"></textarea>
+          <textarea matInput placeholder="Leave a comment" formControlName="comment"></textarea>
         </mat-form-field>
         <button class="btn btn-success btn-sm" type="submit">Comment</button>
       </form>

@@ -27,19 +27,17 @@
     "@ngx-gallery/gallerize": "^4.0.1",
     "@ngx-gallery/lightbox": "^4.0.1",
     "angular-particle-effect-button": "0.0.31",
-    "bootstrap": "^4.2.1",
+    "bootstrap": "4.3.1",
     "core-js": "^2.6.2",
     "flexbox": "0.0.3",
     "font-awesome": "^4.7.0",
     "materialize-css": "^1.0.0",
     "ng-bootstrap-lightbox": "^1.0.1",
-    "ngx-infinite-scroll": "^7.0.1",
-    "ngx-loading": "^3.0.1",
-    "ngx-ui-loader": "latest",
     "rxjs": "~6.3.3",
     "rxjs-compat": "^6.3.3",
     "tslib": "^1.9.0",
-    "zone.js": "^0.8.27"
+    "zone.js": "^0.8.27",
+    "ngx-ui-loader": "7.2.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.12.1",

@@ -9,6 +9,7 @@ import { ProductTableComponent } from './productTable.component';
 import { ProductEditorComponent } from './productEditor.component';
 import { OrderTableComponent } from './orderTable.component';
 
+
 const routing = RouterModule.forChild([
     { path: 'auth', component: AuthComponent },
     {

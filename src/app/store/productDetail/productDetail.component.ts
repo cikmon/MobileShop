@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Output, Input, ViewEncapsulation} from '@angular/core';
 import {Product} from '../../model/product.model';
-
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-product-detail',
@@ -19,8 +19,8 @@ export class ProductDetailComponent {
 
   @Output() onChanged = new EventEmitter<boolean>();
 
-
   private _product: Product;
+  addCommentForm: any;
 
   get product(): Product {
     return this._product;
@@ -48,5 +48,9 @@ export class ProductDetailComponent {
   showAddCommentMethod(show: boolean) {
 
     this.showAddComment = show;
+  }
+
+  addComment() {
+    console.log('add coment');
   }
 }

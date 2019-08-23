@@ -6,22 +6,26 @@ import { AppComponent } from './app.component';
 import { StoreComponent } from './store/store.component';
 import {StoreModule} from './store/store.module';
 
-import { CheckoutComponent } from './store/checkout.component';
-import { CartDetailComponent } from './store/cartDetail.component';
+import { CheckoutComponent } from './store/cart/checkout.component';
+import { CartDetailComponent } from './store/cart/cartDetail.component';
 import { RouterModule } from '@angular/router';
 import { StoreFirstGuard } from './storeFirst.guard';
 import {MainMenuComponent} from './mainMenu/mainMenu.component';
-import {MainMenuModule} from './mainMenu/mainMenu.module';
-import {CardModule} from './store/card/card.module';
-import {NgxLoadingModule} from 'ngx-loading';
 import {ParticleEffectButtonModule} from 'angular-particle-effect-button';
-import {NgxUiLoaderConfig, NgxUiLoaderModule, NgxUiLoaderRouterModule, PB_DIRECTION, POSITION, SPINNER} from 'ngx-ui-loader';
-import {ProductDetailModule} from './store/productDetail/productDetail.module';
+import {
+  NgxUiLoaderConfig,
+  NgxUiLoaderModule,
+  NgxUiLoaderRouterModule,
+  SPINNER,
+  POSITION,
+  PB_DIRECTION,
+  NgxUiLoaderHttpModule
+} from 'ngx-ui-loader';
 
 
 
 const ngxUiLoaderConfig: NgxUiLoaderConfig = {
-  bgsColor: '#00ACC1',
+
   bgsOpacity: 0.5,
   bgsPosition: 'bottom-right',
   bgsSize: 60,
@@ -42,9 +46,12 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
   hasProgressBar: true,
   text: '',
   textColor: '#FFFFFF',
+  // threshold: 500,
   textPosition: 'center-center',
-  threshold: 500
 };
+
+
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -53,7 +60,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     ParticleEffectButtonModule,
     NgxUiLoaderModule.forRoot(ngxUiLoaderConfig),
     NgxUiLoaderRouterModule,
-    NgxLoadingModule.forRoot({}),
+    NgxUiLoaderHttpModule,
     RouterModule.forRoot([
       {path: 'store', component: StoreComponent,
         canActivate: [StoreFirstGuard]

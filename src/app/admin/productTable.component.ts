@@ -4,6 +4,7 @@ import { ProductRepository } from '../model/product.repository';
 
 @Component({
     moduleId: module.id,
+    styleUrls: ['productTable.component.css'],
     templateUrl: 'productTable.component.html'
 })
 export class ProductTableComponent {

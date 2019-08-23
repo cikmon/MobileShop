@@ -1,23 +1,22 @@
-<div class="navbar navbar-inverse bg-info">  
-    <a class="navbar-brand">SPORTS STORE Admin</a>  
-</div>  
-<div class="m-t-1">
-    <div class="col-xs-3">
-        <button class="btn btn-outline-info btn-block" 
-                routerLink="/admin/main/products"
-                routerLinkActive="active">
-            Products
-        </button>
-        <button class="btn btn-outline-info btn-block"
-                routerLink="/admin/main/orders"
-                routerLinkActive="active">
-            Orders
-        </button>
-        <button class="btn btn-outline-danger btn-block" (click)="logout()">
-            Logout
-        </button>
-    </div>
-    <div class="col-xs-9">
-        <router-outlet></router-outlet>
-    </div>
-</div>
+<nav class="navbar navbar-expand-sm  bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand"><div class="title"><h5>SPORTS STORE Admin</h5></div></a>
+  <!--<div class="title"><h5>SPORTS STORE Admin</h5></div>-->
+
+  <ul class="navbar-nav mr-auto">
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="/admin/main/products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Products
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/admin/main/products/create" >Create New Product</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-item nav-link" routerLink="/admin/main/orders" >Orders</a>
+    </li>
+  </ul>
+  <button class="btn btn-outline-danger my-2 my-sm-0" (click)="logout()">Logout</button>
+</nav>
+<router-outlet></router-outlet>

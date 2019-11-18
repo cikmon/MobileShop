@@ -1,0 +1,33 @@
+.block{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 90%;
+}
+.comment {
+  margin-left: 8px;
+  font-size: 16px;
+  padding: 5px;
+  background: #BBD2C5;
+  background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
+  background: linear-gradient(to right, #536976, #BBD2C5);
+}
+.flex-container {
+  padding-left: 8px;
+  font-size: 18px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #63d471;
+  background-image: linear-gradient(315deg,#233329 0%, #63d471 74%);
+
+}
+.flex-container .name{
+  width: 75%;
+}
+
+.flex-container .data{
+  width: 25%;
+}
+
+.answer{
+  margin-left: 15px;
+}

@@ -1,0 +1,24 @@
+<div class="block" *ngFor="let comment of commentSortData()">
+
+  <ng-template [ngIf]=" comment.commentAnswerId === 0">
+    <div class="flex-container">
+      <!--<div class="flex-container2">-->
+      <div class="name">{{comment.name}}</div>
+      <div class="data">{{comment.data | date: 'MMMM d, y, h:mm'}}</div>
+      <!--</div>-->
+    </div>
+  <div class="comment">{{comment.comment}}</div>
+  </ng-template>
+
+    <div class="answer" *ngFor="let comment of answerCommentSortData(comment.id)">
+      <div class="flex-container">
+        <div class="name">{{comment.name}}</div>
+        <div class="data">{{comment.data | date: 'MMMM d, y, h:mm'}}</div>
+      </div>
+      <div class="comment">{{comment.comment}}</div>
+    </div>
+
+
+
+</div>
+

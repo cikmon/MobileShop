@@ -12,8 +12,7 @@ import { OrderTableComponent } from './orderTable.component';
 
 const routing = RouterModule.forChild([
     { path: 'auth', component: AuthComponent },
-    {
-        path: 'main', component: AdminComponent, canActivate: [AuthGuard],
+    { path: 'main', component: AdminComponent, canActivate: [AuthGuard],
         children: [
             { path: 'products/:mode/:id', component: ProductEditorComponent },
             { path: 'products/:mode', component: ProductEditorComponent },
